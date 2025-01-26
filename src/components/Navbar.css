@@ -1,0 +1,25 @@
+.navbar {
+  background-color: #333;
+  padding: 1rem;
+}
+
+.navbar-list {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  align-items: center; /* Alinea verticalmente los elementos */
+}
+
+.navbar-item {
+  margin-right: 1rem;
+}
+
+.navbar-item a {
+  color: white;
+  text-decoration: none;
+}
+
+.navbar-item a:hover {
+  text-decoration: underline;
+}
