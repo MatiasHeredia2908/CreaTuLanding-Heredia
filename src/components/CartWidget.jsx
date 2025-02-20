@@ -1,11 +1,12 @@
 import React from "react";
 import './CartWidget.css';
 
-const CartWidget = ({ itemCount }) => {
+const CartWidget = () => {
+    const itemCount = 3
     return (
         <div className="cart-widget">
             <i className="fas fa-shopping-cart"></i>
-            {itemCount > 0 && <span className="item-count">{itemCount}</span>}
+            <span className="item-count">{itemCount}</span>
         </div>
     );
 };

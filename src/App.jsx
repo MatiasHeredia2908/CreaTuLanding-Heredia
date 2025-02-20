@@ -1,4 +1,5 @@
 import React from "react";
+import AppRouter from "./AppRouter";
 import Navbar from './components/Navbar';
 import ItemListContainer from './components/ItemListContainer';
 import './App.css';
@@ -6,10 +7,9 @@ import './App.css';
 function App() {
   return (
     <div className="App">
-      <Navbar/>
-      <ItemListContainer greeting="¡Bienvenido a Portico!"/>
+      <AppRouter/>
     </div>
   )
 }
 
-export default App
+export default App;
